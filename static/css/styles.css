@@ -89,12 +89,13 @@ nav .current{
         margin: 0;
         padding: 2rem;
         flex-direction: column;
-        height: 25rem;
+        height: auto;
         gap: 0.5rem;
     }
 
     .tokyo img {
-        width: 100%;
+        width: auto;
+        height: auto;
         margin: auto;
         margin-left: auto;
         margin-right: auto;
@@ -102,7 +103,7 @@ nav .current{
     
     .tokyo .image-container {
         width: 100%;
-        height: 18rem;
+        height: 100%;
     }
     .tokyo .manji {
         display: flex;
