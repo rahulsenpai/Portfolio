@@ -1,0 +1,34 @@
+.comment-box {
+    background-color: #232627;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 1s, hight 1s;
+}
+
+.comment-box:hover {
+    width: 800px;
+    height: 350px;
+
+}
+.comment-box .comments {
+    height: 100%;
+}
+
+.comment-box .date {
+    color: gray;
+}
+
+.comment-box .name {
+    color: #f99a0a;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .comment-box {
+        width: 100%;
+        height: 18rem;
+    }
+}
